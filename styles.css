@@ -1,0 +1,301 @@
+body{
+  font-family: 'Exo 2', sans-serif;
+    /* width: 1920px;
+    height: 1080px;  */
+
+  
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.left-side, .right-side {
+  flex: 1;
+  padding: 20px;
+}
+
+.header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.text {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  background-color: #1DDEEE;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+/* img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+} */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;600;700&display=swap');
+
+.navbar{
+    background: transparent;
+}
+
+#c1{
+
+    background-image: linear-gradient(97.3deg, #1AFCFD 0%, #266FB4 100%);
+    
+
+}
+
+#btn1{
+    
+    background-color: #ffffff; 
+    border-radius: 30px;
+    color: #1DDEEE;
+    text-decoration: none;
+    font-size: 1rem;
+    position: relative;
+    transition: transform 0.3s ease;
+    padding: 10px 32px; 
+}
+
+#btn2{
+    background-color: transparent; 
+    border-radius: 30px;
+    border: 2px solid;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+    position: relative;
+    transition: transform 0.3s ease;
+    padding: 10px 32px; 
+}
+
+
+#more {
+    
+    display: none;
+}
+
+
+#description{
+    
+    width: 65rem;
+    height: 30rem;
+    background-color: white;
+}
+
+.img-block{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+#products{
+    background-image: url("./img/bg2.png");
+    
+}
+
+#cards {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+    
+  }
+
+.cards2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card {
+    width: 290px;
+    height: 120px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 40px;
+    padding: 20px;
+    background-color: transparent;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+
+  .card:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+
+  .card-img {
+    max-width: 100%;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 15px;
+  }
+
+  .card-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .card-text {
+    font-size: 14px;
+  }
+
+
+
+  .reviews{
+    display: inline;
+    
+    text-align: center;
+  }
+
+
+  .slides{
+
+    margin: 0 auto;
+    max-width: 100%;
+    height: 400px;
+    width: 600px;
+  
+  }
+
+
+.partners{
+  align-items: center;
+}
+.partners img{
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  max-width: 100%;
+
+}
+
+.community{
+  background-image:linear-gradient(97.3deg, #1AFCFD 0%, #266FB4 100%);
+  
+}
+
+
+
+
+.footer {
+  background-color:  #212121;
+  ;
+  color: #fff;
+  width: 100%;
+  padding: 20px 0;
+}
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 40px;
+}
+.column {
+  width: calc(25% - 90px);
+  margin: 0 10px;
+}
+.column img {
+  width: 100%;
+  width: 150px;
+}
+.column h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.column p, .column a {
+  font-size: 14px;
+  margin-bottom: 30px;
+  display: block;
+}
+
+#l1{
+  margin-left: 90px;
+}
+
+.column a {
+  color: #fff;
+  text-decoration: none;
+}
+.column a:hover {
+  text-decoration: underline;
+}
+.email-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 200px;
+}
+.email-form input[type="email"] {
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+.email-form button {
+  background-color: #fff;
+  color: #000;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  
+  flex-wrap: wrap;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 25px;
+}
+
+.image-container img {
+  width: 160px;
+  height: 160px;
+}
+
+.image-container p {
+  margin: 10px 0;
+  text-align: center;
+  font-size: 18px;
+}
